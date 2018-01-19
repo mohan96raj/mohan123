@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="purple">
+      <!--  <header><img class="logo" src="C:\Users\Administrator\Downloads\step-projector-student-master\images\projector-logo.png"></header>-->
+        <form class="add_new_movie" id="add_new_movie">
+            <h2>Add a New Movie</h2>
+            <label for="movie_name">Movie Name </label>
+            <input type="text" name="movie_name">
+            <label for="release_year">Release year </label>
+            <input type="text" name="release_year">
+         <div class="divide">
+            <label for="language">Language</label>
+            <select name="language">
+                <option value="English">English</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        </div>
+        <div class="divide" style="float:right;">
+            <label for="rating">Ratings</label>
+            <select name="rating">
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+            </div>
+            <label for="thm_url">Thumpnail URL</label>
+            <input type="url" name="thm_url">
+            <label for="plot">Plot</label>
+            <textarea name="plot" rows=5></textarea>
+            <label for="post_url">Poster URL</label>
+            <input type="text" name="post_url">
+            <label for="cast">Cast</label>
+            <textarea name="cast" rows=5></textarea>
+            <input type="submit" name="new_movie" value="save">
+        </form>
+        <footer></footer>
+    </body>
+</html>
